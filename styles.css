@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #1c1c1c;
+}
+.unitContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  width: 550px;
+  height: 285px;
+  font-family: "Inter", sans-serif;
+  background: #6943ff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.headerText h1 {
+  margin-top: 33px;
+  font-size: 28px;
+}
+
+.num {
+  border-radius: 5px;
+  border: 2px solid #b295ff;
+  margin: 0 auto;
+}
+.num input {
+  width: 80px;
+  height: 80px;
+  background: #6943ff;
+  border: 2px solid #b295ff;
+  font-size: 50px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.btn button {
+  margin-top: 25px;
+  padding: 8px 17px;
+  color: #3d3d3d;
+  border-radius: 5px;
+  border: hidden;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.units {
+  width: 550px;
+  height: 450px;
+  background: #1f2937;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.units h3 {
+  color: #ccc1ff;
+  font-size: 20px;
+}
+
+.units p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.lenghtUnit {
+  margin: 0 auto;
+  width: 500px;
+  height: 108px;
+  border-radius: 5px 0px 0px 0px;
+  background: #273549;
+}
+
+.volumeUnit {
+  margin: 0 auto;
+  width: 500px;
+  height: 108px;
+  border-radius: 5px 0px 0px 0px;
+  background: #273549;
+}
+
+.massUnit {
+  margin: 0 auto;
+  width: 500px;
+  height: 108px;
+  border-radius: 5px 0px 0px 0px;
+  background: #273549;
+}
